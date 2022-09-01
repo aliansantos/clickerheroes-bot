@@ -54,7 +54,7 @@ def lucky_strike():
     board3 = pyautogui.locateOnScreen('data/lucky_strikes_loading2.png', confidence = 0.7)
 
     if board is not None:
-        print("Activing Powersurge...")
+        print("Activing Lucky Strike...")
         time.sleep(1)
         pyautogui.moveTo(board)
         pydirectinput.mouseDown()
@@ -70,7 +70,7 @@ def metal_detector():
     board3 = pyautogui.locateOnScreen('data/metal_detector_loading2.png', confidence = 0.7)
 
     if board is not None:
-        print("Activing Powersurge...")
+        print("Activing Metal Detector...")
         time.sleep(1)
         pyautogui.moveTo(board)
         pydirectinput.mouseDown()
@@ -86,7 +86,7 @@ def golden_clicks():
     board3 = pyautogui.locateOnScreen('data/golden_clicks_loading2.png', confidence = 0.7)
 
     if board is not None:
-        print("Activing Powersurge...")
+        print("Activing Golden Clicks...")
         time.sleep(1)
         pyautogui.moveTo(board)
         pydirectinput.mouseDown()
@@ -102,7 +102,7 @@ def super_clicks():
     board3 = pyautogui.locateOnScreen('data/super_clicks_loading2.png', confidence = 0.7)
 
     if board is not None:
-        print("Activing Powersurge...")
+        print("Activing Super Clicks...")
         time.sleep(1)
         pyautogui.moveTo(board)
         pydirectinput.mouseDown()
